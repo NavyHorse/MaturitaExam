@@ -216,8 +216,8 @@ const questions = [
 		answers: [
 		 { text: "Jen monolog", correct: false},
 		 { text: "Žádné", correct: false},
-		 { text: "Jen dialog", correct: false},
-		 { text: "Jak monilog, tak také i dialog", correct: true},
+		 { text: "Jen dialog", correct: true},
+		 { text: "Jak monilog, tak také i dialog", correct: false},
 		]
 	},
 	{
@@ -626,3 +626,4 @@ backButton.addEventListener("click", () => {
 });
 
 startQuiz();
+
