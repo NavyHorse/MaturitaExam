@@ -181,10 +181,10 @@ const questions = [
 	{
 		question: "Je zde veršová výstavba?",
 		answers: [
-		 { text: "Střídavý (a, b, a, b), obkročný (a, b, b, a), sdružený verš (a, a, b, b)", correct: false},
+		 { text: "Střídavý (a, b, a, b), obkročný (a, b, b, a), sdružený verš (a, a, b, b)", correct: true},
 		 { text: "Není, protože to je prozaický text.", correct: false},
 		 { text: "Triádový (a, a, a, a)", correct: false},
-		 { text: "Střídavý (a, b, a, b) a sdružený (a, a, b, b).", correct: true},
+		 { text: "Střídavý (a, b, a, b) a sdružený (a, a, b, b).", correct: false},
 		]
 	},
 	{
@@ -503,3 +503,4 @@ backButton.addEventListener("click", () => {
 });
 
 startQuiz();
+
